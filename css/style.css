@@ -52,7 +52,20 @@ header {
 	padding: 15px 5px;
 }
 
+.menu .container {
+    position: relative;
+}
 
+.globe {
+    font-size: 25px;
+    line-height: 50px;
+    position: absolute;
+    right: 20px;
+}
+
+.icons {
+    display: none;
+}
 /* Large Devices, Wide Screens */
 
 @media only screen and (max-width: 1200px) {}
@@ -60,7 +73,9 @@ header {
 
 /* Medium Devices, Desktops */
 
-@media only screen and (max-width: 992px) {}
+@media only screen and (max-width: 992px) {
+    padding-right: 10px;
+}
 
 
 /* Small Devices, Tablets */

@@ -60,12 +60,13 @@ header {
     font-size: 25px;
     line-height: 50px;
     position: absolute;
-    right: 20px;
-}
-
-.icons {
+    right: 25px;
+    cursor: pointer;
+    color: #d0cfce;
     display: none;
 }
+
+
 /* Large Devices, Wide Screens */
 
 @media only screen and (max-width: 1200px) {}
@@ -74,7 +75,27 @@ header {
 /* Medium Devices, Desktops */
 
 @media only screen and (max-width: 992px) {
-    padding-right: 10px;
+    .navbar-brand {
+        padding-right: 10px;
+    }
+    .icons {
+        /*display: none;*/
+        position: absolute;
+        right: 34px;
+        top: 40px;
+    }
+
+    .icons li {
+        float: none;
+
+    }
+
+    .icons li a {
+        padding: 5px;
+    }
+    .globe {
+        display: block;
+    }
 }
 
 

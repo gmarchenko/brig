@@ -101,9 +101,50 @@ header {
 
 /* Small Devices, Tablets */
 
-@media only screen and (max-width: 767px) {}
+@media only screen and (max-width: 767px) {
+    .menu {
+        padding: 0;
+    }
+    .icons {
+        display: block !important;
+        position: relative;
+        right: 0;
+        top:0;
+    }
+    .icons li {
+        display: inline-block;
+    }
+    .globe {
+        display: none;
+    }
+    .navbar-brand img {
+        max-height: 50px;
+        top:-15px;
+    }
+    .navbar-nav > li > a {
+        transition: all .5s;
+    }
+    .navbar-default .navbar-nav > li.active_link>a{
+    	border-bottom: 0;
+    	color: #fff;
+        background: #d42819;
+    }
+    .navbar-default .navbar-nav:not(.icons)>li>a:hover {
+    	border-bottom: 0;
+    	color: #fff;
+        background: #d42819;
+    }
+}
 
 
 /* Extra Small Devices, Phones */
 
-@media only screen and (max-width: 480px) {}
+@media only screen and (max-width: 480px) {
+
+}
+
+@media only screen and (min-width: 993px) {
+    .icons {
+        display: block !important;
+    }
+}

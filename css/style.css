@@ -13,43 +13,43 @@ img {
 }
 
 header {
-	margin: 100px 0 80px;
+    margin: 100px 0 80px;
 }
 
 .menu {
-	background: #fefefe;
-	border: 0;
-	box-shadow: 0 0 0 5px rgba(0, 0, 0, .19);
-	padding: 15px 0;
+    background: #fefefe;
+    border: 0;
+    box-shadow: 0 0 0 5px rgba(0, 0, 0, .19);
+    padding: 15px 0;
 }
 
 .navbar-brand {
-	padding-right: 80px;
+    padding-right: 80px;
 }
 
 .navbar-brand img {
-	position: relative;
-	top: -48px;
+    position: relative;
+    top: -48px;
 }
 
 .navbar-default .navbar-nav>li>a {
-	color: #8d8c8c;
-	font-size: 18px;
-	text-transform: uppercase;
+    color: #8d8c8c;
+    font-size: 18px;
+    text-transform: uppercase;
 }
 
-.navbar-default .navbar-nav > li.active_link>a{
-	border-bottom: 1px solid #d42819;
-	color: #8d8c8c;
+.navbar-default .navbar-nav>li.active_link>a {
+    border-bottom: 1px solid #d42819;
+    color: #8d8c8c;
 }
 
 .navbar-default .navbar-nav:not(.icons)>li>a:hover {
-	border-bottom: 1px solid #d42819;
-	color: #8d8c8c;
+    border-bottom: 1px solid #d42819;
+    color: #8d8c8c;
 }
 
 .icons li a {
-	padding: 15px 5px;
+    padding: 15px 5px;
 }
 
 .menu .container {
@@ -84,12 +84,9 @@ header {
         right: 34px;
         top: 40px;
     }
-
     .icons li {
         float: none;
-
     }
-
     .icons li a {
         padding: 5px;
     }
@@ -109,7 +106,7 @@ header {
         display: block !important;
         position: relative;
         right: 0;
-        top:0;
+        top: 0;
     }
     .icons li {
         display: inline-block;
@@ -119,19 +116,19 @@ header {
     }
     .navbar-brand img {
         max-height: 50px;
-        top:-15px;
+        top: -15px;
     }
-    .navbar-nav > li > a {
+    .navbar-nav>li>a {
         transition: all .5s;
     }
-    .navbar-default .navbar-nav > li.active_link>a{
-    	border-bottom: 0;
-    	color: #fff;
+    .navbar-default .navbar-nav>li.active_link>a {
+        border-bottom: 0;
+        color: #fff;
         background: #d42819;
     }
     .navbar-default .navbar-nav:not(.icons)>li>a:hover {
-    	border-bottom: 0;
-    	color: #fff;
+        border-bottom: 0;
+        color: #fff;
         background: #d42819;
     }
 }
@@ -139,9 +136,7 @@ header {
 
 /* Extra Small Devices, Phones */
 
-@media only screen and (max-width: 480px) {
-
-}
+@media only screen and (max-width: 480px) {}
 
 @media only screen and (min-width: 993px) {
     .icons {

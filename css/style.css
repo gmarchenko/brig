@@ -16,6 +16,39 @@ header {
     margin: 100px 0 80px;
 }
 
+.slogan {
+    margin-bottom: 80px;
+}
+
+.slogan h1 {
+    margin: 0;
+    text-align: center;
+    font-size: 33px;
+}
+
+.slogan h1 span {
+    color: #f00;
+}
+
+.card_row {
+    margin-bottom: 50px;
+}
+
+.nav-pager {
+    text-align: center;
+}
+
+.pagination>li>a, .pagination>li>span {
+    color: #b5b3b3;
+}
+
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover, .pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
+    background: #fff;
+    border: 1px solid #ddd;
+    color: #f00;
+}
+
+
 .menu {
     background: #fefefe;
     border: 0;
@@ -93,6 +126,10 @@ header {
     .globe {
         display: block;
     }
+
+    .card_row {
+        text-align: center;
+    }
 }
 
 
@@ -131,12 +168,22 @@ header {
         color: #fff;
         background: #d42819;
     }
+    .card {
+        margin-bottom: 50px;
+    }
 }
 
 
 /* Extra Small Devices, Phones */
 
-@media only screen and (max-width: 480px) {}
+@media only screen and (max-width: 480px) {
+    header, .slogan {
+        margin-bottom: 30px;
+    }
+    .slogan h1 {
+        font-size: 25px;
+    }
+}
 
 @media only screen and (min-width: 993px) {
     .icons {

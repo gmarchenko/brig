@@ -99,6 +99,13 @@ header {
     display: none;
 }
 
+footer {
+    margin-bottom: 100px;
+}
+
+footer hr {
+    border-color: #b7b6b6;
+}
 
 /* Large Devices, Wide Screens */
 
